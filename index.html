@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Miles Davis Interactive Timeline</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <li><a class="col-sm-2 navbar-intro" href="#step-1">INTRO</a></li>
+          <li><a class="col-sm-2 navbar-first" href="#step-4">FIRST DECADE</a></li>
+          <li><a class="col-sm-2 navbar-second" href="#step-11">SECOND DECADE</a></li>
+          <li><a class="col-sm-2 navbar-third" href="#">THIRD DECADE</a></li>
+          <li><a class="col-sm-2 navbar-fourth" href="#">FOURTH DECADE</a></li>
+          <li><a class="col-sm-2 navbar-fifth" href="#">FIFTH DECADE</a></li>
+
+        </div>
+      </div>
+  </nav>
+
+  <div id="impress">
+
+    <!-- Step 1 -->
+
+    <div class="container">
+
+      <div class="step box intro" data-x="0" data-y="0" data-scale="1">  
+        
+        <audio id="song-1" src="sounds/05 Blow.m4a" type="audio/m4a"></audio>
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="introMiles"><img src="css/img/a.png"></div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-container">
+              <h1>MILES DAVIS</h1>
+              <div class="description-1">
+                <p>Regarded as one of the most influential and acclaimed figures in the history of jazz and 20th century music. With his ever-changing directions in music, Davis was at the forefront of a number of major stylistic developments in jazz over his five-decade career.</p>
+              </div>
+            </div>     
+          </div>
+
+
+          <div class="boxes-intro">
+            <div class="boxes-left">
+              <div id="box-1"></div>
+            </div>
+            <div class="boxes-right">
+              <div id="box-2"></div>
+              <div id="box-3"></div>
+            </div>
+          </div>
+          
+        </div> 
+      </div>
+    </div> 
+
+    <!-- Step 1 -->
+
+    <!-- Step 2 -->
+
+    <div class="container">
+      <div class="step box transition-1" data-x="1800" data-y="0" data-scale="1">
+
+        <div id="box-4"></div>
+
+        <div class="row">
+          <div class="col-md-10 col-md-offset-2">
+            <div id="q-1" class="quote-1">
+              <p>"Miles Davis played a crucial and inevitably controversial role in every major development in jazz since the mid-'40s, and no other jazz musician has had so profound an effect on rock. Miles Davis was the most widely recognized jazz musician of his era, an outspoken social critic and an arbiter of style—in attitude and fashion—as well as music"</p>
+            </div> 
+          </div>
+        </div> 
+
+        <div class="row">
+          <div id="a-1" class="col-md-6 col-md-offset-6">
+            <div class="author-1">
+              <p>–The Rolling Stone Encyclopedia of Rock &amp; Roll</p>
+            </div>   
+          </div>
+        </div>
+
+      </div>  
+    </div>
+
+    <!-- Step 2 -->
+
+    <!-- Step 3 -->
+
+    <div class="container">
+      <div class="step box timeline" data-x="1800" data-y="960" data-scale="1">
+
+        <div id="box-5"></div>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-0">
+            <div class="headline-2">
+              <h2>Interactive Timeline</h2>
+            </div>    
+          </div>  
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="timeline-chart">
+
+               <div class="period pre-jazz">
+                  <div id="p-0" class="score"></div>
+                </div>
+                <div class="period first-d">
+                  <div id="p-1" class="score"></div>
+                </div>
+                <div class="period second-d">
+                  <div id="p-2" class="score"></div>
+                </div>
+                <div class="period third-d">
+                  <div id="p-3" class="score"></div>
+                </div>
+                <div class="period fourth-d">
+                  <div id="p-4" class="score"></div>
+                </div>
+                <div class="period fifth-d">
+                  <div id="p-5" class="score"></div>
+                </div>
+              
+            </div>
+          </div>  
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 dates">
+
+            <div class="col-xs-1 d-1"><div class="box">1926</div></div>
+            <div class="col-xs-1 d-2"><div class="box">1944</div></div>
+            <div class="col-xs-1 d-3"><div class="box">1954</div></div>
+            <div class="col-xs-1 d-4"><div class="box">1964</div></div>
+            <div class="col-xs-1 d-5"><div class="box">1974</div></div>
+            <div class="col-xs-1 d-6"><div class="box">1984</div></div>
+            <div class="col-xs-1 d-7"><div class="box">1991</div></div>
+            
+          </div>   
+        </div>
+
+        <div class="row">
+          <div class="description-timeline">
+            <div class="col-md-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed dui ac odio dictum porttitor ac a felis.</p> 
+            </div> 
+            <div class="col-md-6">
+              <p>Aenean luctus enim eget ultricies iaculis. Morbi molestie libero ut ipsum tempus, nec dignissim lectus commodo.</p>  
+            </div>
+          </div>    
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+
+    <!-- Step 4 -->
+
+    <div class="container">
+      <div class="step box decade-1" data-x="3600" data-y="960" data-scale="1">
+
+        <audio id="song-2" src="sounds/Jeru.m4a" type="audio/m4a"></audio>
+
+        <div id="box-6"></div>
+        <div id="box-7"></div>
+        <div id="box-8"></div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div id="d-1-name" class="decade-title">
+
+              <h2>First Decade</h2>
+              <h3>1944 - 1954</h3>  
+
+            </div>
+          </div>
+        </div>      
+      </div>      
+    </div>
+
+    <!-- Screen 4 -->
+
+    <!-- Screen 5 -->
+
+    <div class="container">
+      <div class="step box decade-1A" data-x="3600" data-y="1920" data-scale="1">
+
+        <div class="layout-1A">
+
+        <div class="halftone-bkg"></div>
+
+          <div class="row">
+
+            <div class="content-decade-1A">
+
+              <div class="content-1A col-md-2 col-md-offset-0">
+
+                <div class="timeline-p1A">
+                  
+                  <div class="p1A y-1944">
+                    <div class="y-1A">1944</div>
+                  </div>
+
+                  <div class="p1A y-1945">
+                    <div class="y-1B">1945</div>
+                  </div>
+
+                  <div class="p1A y-1946">
+                    <div class="y-1C">1946</div>
+                  </div>
+
+                  <div class="p1A y-1947">
+                    <div class="y-1D">1947</div>
+                  </div>
+
+                  <div class="p1A y-1948">
+                    <div class="y-1E">1948</div>
+                  </div>   
+
+                </div>
+
+              </div>
+
+              <div class="content-1A col-md-10 col-md-offset-2">
+
+                <div class="box pic-1A">
+                  <img src="css/img/c.jpg">
+                </div>
+
+                <div class="decade1A-title">
+                    <h2>NYC AND THE BEBOP YEARS</h2>
+                </div>
+
+                <div class="description-1A">
+
+                  <div class="col-md-6 col-md-offset-0">
+                    <p>In the fall of 1944,  Davis moved to New York City from East St. Louis, Illinois.  After locating Charlie Parker, Davis soon became one of his regular  musicians in his quintet, which also featured Max Roach , Al Haig, and  Curley Russell.</p>
+
+                    <p>In 1945, Davis entered a recording studio for the first time, as a member of Herbie Fields's group. This was the first of many recordings Davis contributed to in this period, mostly as a sideman.</p> 
+                  </div> 
+
+                  <div class="col-2-1A col-md-6">
+                    <p>He finally got the chance to record as a leader in 1946,  by then a member of the groundbreaking Charlie Parker Quintet. With Parker's quintet, Davis went into the studio several times, already showing hints of the style he would become known for. In  Parker's signature song, "Now's the Time", Davis takes a melodic solo, whose unbop-like quality anticipates the "cool jazz" period that followed.
+                    </p>
+                  </div>     
+                </div>
+
+              </div> 
+            </div>   
+             
+          </div>
+            
+        </div>
+      </div>      
+    </div>
+
+    <!-- Screen 5 -->
+
+    <!-- Screen 6 -->
+
+    <div class="container">
+      <div class="step box transition-2" data-x="3600" data-y="2880" data-scale="1">
+
+        <div class="animate-bkg-slide6">
+          <div id="box-9"></div>
+          <div id="box-10"></div>
+        </div>
+
+        <div class="layout-2A">
+          <div class="row">
+
+            <div class="content-transition-2">
+
+              <div class="content-2A col-md-2 col-md-offset-0">
+                <div class="timeline-t1A"></div>   
+              </div>
+
+              <div class="transition-2-content">
+
+                <div class="content-2A col-md-4">
+                  <div id="trumpet" class="trumpet-illustration"><img src="css/img/trumpet.svg"></div>              
+                </div>
+
+                <div class="content-2A col-md-6">
+                  <div class="transition-2-txt">
+                    <p>The Parker quintet  toured widely; until when Parker suffered from a nervous breakdown that landed him in the Mental Hospital for months, leaving Davis feeling stranded.</p>
+
+                    <p>In 1948, Parker returned to New York, and Davis rejoined his group. However, the relationships within the quintet were growing tense. Davis finally left the group.</p>
+
+                    <p>For Davis, his departure from Parker's group marked the beginning of a period when he worked mainly as a freelancer and sideman in some of the most important combos on the New York City jazz scene.</p>
+                  </div>   
+                </div>
+
+              </div>  
+
+            </div>
+            
+          </div>
+
+        </div>
+        
+
+      </div>      
+    </div>
+
+    <!-- Screen 6 -->
+
+    <!-- Screen 7 -->
+
+    <div class="container">
+      <div class="step box decade-1B" data-x="3600" data-y="3840" data-scale="1">
+
+        <div class="layout-1B">
+
+        <div class="halftone-bkg-2"></div>
+
+          <div class="row">
+
+            <div class="content-decade-1B">
+
+              <div class="content-1B col-md-2 col-md-offset-0">
+                <div class="timeline-p1B">
+                  
+                  <div class="p1B y2-1948">
+                    <div class="y-1B-A">1948</div>
+                  </div>
+
+                  <div class="p1B y-1949">
+                    <div class="y-1B-B">1949</div>
+                  </div>
+
+                </div>               
+              </div> 
+
+              <div class="content-1B col-md-10 col-md-offset-2 content-1B-layout">
+
+                <div class="decade1B-title">
+                  <h2>THE BIRTH OF THE COOL</h2>
+                </div>
+
+                <div class="description-1B">
+                  <div class="col-md-5 col-md-offset-0">
+                    <p>Davis grew close to the Canadian composer and arranger Gil Evans. Evans' basement apartment had become the meeting place for several young musicians and composers such as Davis, Roach, John Lewis, and Gerry Mulligan. Together they created a group with a sound that suggested the creation of an unusual line-up: a nonet including a French horn and a tuba. Davis took a very active role in the group, that it soon became "his project".  In the summer of 1948, the group debuted as the “Miles Davis Nonet”.</p>
+
+                    <p>A contract with Capitol Records granted the nonet several recording sessions between 1949 and 1950. The material they recorded was released  on an album whose title, Birth of the Cool, gave its name to the "cool jazz" movement.</p>                    
+                  </div>                  
+                </div>
+
+                <div class="col-md-5 col-md-offset-0">
+                  <div class="box pic-1B"><img src="css/img/d.jpg"></div>
+                </div>                
+
+              </div>     
+            </div>
+            
+
+          </div>        
+        </div>
+      
+      </div>
+    </div>
+
+
+    <!-- Screen 7 -->
+
+    <!-- Screen 8 -->
+
+
+    <div class="container">  
+      <div class="step box transition-3" data-x="3600" data-y="4800" data-scale="1">
+
+        <audio id="song-3" src="sounds/Compulsion.m4a" type="audio/m4a"></audio>
+
+        <div class="animate-bkg-slide8">
+          <div id="box-11"></div>
+          <div id="box-12"></div>
+        </div>
+
+        <div class="layout-2B">
+
+          <div class="row">
+            <div class="content-transition-3">
+
+              <div class="content-2B col-md-2 col-md-offset-0">
+                
+                <div class="timeline-t1B"></div>               
+              </div>
+
+              <div class="transition-3-content">
+
+                <div class="content-2B col-md-10">
+                  <div class="transition-3-txt">
+                    <p>The objective of the sound was to achieve a sound similar to the human voice, through carefully arranged compositions and by emphasizing a relaxed, melodic approach to the improvisations.</p>
+
+                    <p>The importance of the nonet experience would become clear to critics and the larger public only in later years, but, at least commercially, the nonet was not a success.</p>
+
+                    <p>However, this experience also marked the beginning of the lifelong friendship between Davis and Gil Evans, an alliance that would bear important results in the years to follow.</p>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>            
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+
+
+    <!-- Screen 8 -->
+
+    <!-- Screen 9 -->
+
+    <div class="container">
+        
+      <div class="step box transition-3" data-x="3600" data-y="5760" data-scale="1">
+
+        <div class="layout-1C">
+
+          <div class="row">
+
+            <div class="content-decade-1C">
+
+              <div class="content-1C col-md-2 col-md-offset-0">
+
+                <div class="timeline-p1C">
+
+                  <div class="p1C y-1950">
+                    <div class="y-1C-A">1950</div>
+                  </div>
+
+                  <div class="p1C y-1951">
+                    <div class="y-1C-B">1951</div>
+                  </div>
+
+                  <div class="p1C y-1952">
+                    <div class="y-1C-C">1952</div>
+                  </div>
+
+                  <div class="p1C y-1953">
+                    <div class="y-1C-D">1953</div>
+                  </div>
+
+                  <div class="p1C y-1954">
+                    <div class="y-1C-E">1954</div>
+                  </div>
+                  
+                </div>
+                
+              </div> 
+
+              <div class="content-1C col-md-10 col-md-offset-2 content-1C-layout">
+
+                <div class="discography-decade-1">
+
+                  <div class="album-layout">
+
+
+                    <div class="row">
+
+                      <!-- <div class="album-layout"> -->
+
+                        <div class="discography">
+
+                          <div class="album A-1"><img src="css/img/albums/01.jpg"></div>
+
+                          <div class="album A-2"><img src="css/img/albums/02.jpg"></div>
+
+                          <div class="album A-3"><img src="css/img/albums/03.jpg"></div>
+
+                          <div class="album A-4"><img src="css/img/albums/04-A.jpg"></div>
+
+                          <div class="album A-5"><img src="css/img/albums/05.jpg"></div>
+                            
+
+                        </div>
+                      <!-- </div> -->
+                    </div>
+
+
+                    <div class="row">
+
+                      <!-- <div class="album-layout2"> -->
+
+                        <div class="discography-2">
+
+                          <div class="album2 A-6"><img src="css/img/albums/06.jpg"></div>
+
+                          <div class="album2 A-7"><img src="css/img/albums/07.jpg"></div>
+
+                          <div class="album2 A-8"><img src="css/img/albums/08.jpg"></div>
+
+                          <div class="album2 A-9"><img src="css/img/albums/09.jpg"></div>
+
+                          <div class="album2 A-10"><img src="css/img/albums/10.jpg"></div>
+                            
+                        </div>
+                      <!-- </div> -->
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="decade1C-title">
+                  <h2>HARD BOP AND THE “BLUE PERIOD”</h2>
+                </div>
+
+                <div class="description-1C">
+
+                  <div class="col-md-10 col-md-offset-0">
+                    <p>The first half of the 1950s was, for Davis, a period of great personal difficulty. Despite all the personal turmoil, the 1950–54 period proved to be a fruitful one for Davis artistically. He made quite a number of recordings and had several collaborations with other important musicians.  The most important Prestige recordings of this period (Dig, Blue Haze, Bags' Groove, Miles Davis and the Modern Jazz Giants, and Walkin') originated mostly from recording sessions in 1951 and 1954. Also of importance are his five Blue Note recordings, collected in the Miles Davis Volume 1 album. He also definitively severed his stylistic ties with bebop.</p> 
+                  </div> 
+                </div>
+
+
+              </div>             
+
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Screen 9 -->
+
+    <!-- Screen 10 -->
+
+    <div class="container">
+
+      <div class="step box transition-4" data-x="3600" data-y="6720" data-scale="1" >
+
+
+      <!-- VIDEO CODE -->
+
+        <!-- <div class="video-test">
+
+          <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay> -->
+            <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+            <!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
+            <!-- <source src="sounds/videos/So What.mp4" type="video/mp4">
+          </video>
+
+        </div> -->
+
+        <!-- VIDEO CODE -->
+
+        <div class="animate-bkg-slide10">
+          <div id="box-13"></div>
+          <div id="box-14"></div>
+        </div>
+
+        <div class="layout-2C">
+
+          <div class="row">
+            <div class="content-transition-4">
+
+              <div class="content-2C col-md-2 col-md-offset-0">
+                <div class="timeline-t1C"></div>     
+              </div>
+
+              <div class="transition-4-content">
+
+                <div class="content-2C col-md-10">
+                  <div class="transition-3-txt">
+                    <p>During this time he began using the Harmon mute, held close to the microphone, in a way that became his signature, and his phrasing, especially in ballads, became spacious, melodic, and relaxed. This sound became so characteristic that the use of the Harmon mute by any jazz trumpet player since immediately conjures up Miles Davis.</p>
+
+                    <p>Davis assumed a central position in what is known as hard bop. In contrast with bebop, hard bop used slower tempos and a less radical approach to harmony and melody, often adopting popular tunes and standards from the American songbook as starting points for improvisation.</p>
+                  </div>      
+                </div>                
+
+              </div>
+              
+            </div>
+          </div> 
+
+        </div>
+        
+
+      </div>      
+    </div>
+
+
+    <!-- Screen 10 -->
+
+    <!-- Screen 11 -->
+
+    <div class="container">
+      <div class="step box decade-2" data-x="5400" data-y="6720" data-scale="1">
+
+        <div class="animate-bkg-slide11">
+          <div id="box-15"></div>
+          <div id="box-16"></div>
+          <div id="box-17"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div id="d-2-name" class="decade-2-title">
+
+              <h2>Second Decade</h2>
+              <h3>1955 - 1963</h3>  
+
+            </div>
+          </div>
+        </div>      
+      
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Screen 11 -->
+
+
+
+
+
+  </div>
+</div>
+
+<script src="js/impress.js" type="text/javascript"></script>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+  impress().init();
+</script>
+
+
+
+</body>
+</html>
